@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-weight: 300 !important;
+    font-size: 3.75rem !important;
+}
+
+h2 {
+    font-weight: 300 !important;
+    font-size: 3rem !important;
+}
+
+.btn {
+        background-color: #F07900 !important;
+        color: #ffffff !important;
+        border: none !important;
+}
+
+.btn-wide {
+    background-color: #F07900 !important;
+    color: #ffffff !important;
+    border: none !important;
+    padding: 0.5rem 3rem !important;
+    border-radius: 0 !important;
+}
+
+@media screen and (max-width: 500px) {
+    .btn-wide {
+        padding: 0.3rem 2rem !important;
+    }
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/* .footer li {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue !important;
+    padding: 3rem 0 !important;
+    font-weight: 300 !important;
+}
+
+.footer ul {
+    padding-left: 10px !important;
+}
+
+.footer a {
+    color: azure;
+}
+
+.footer-logo img {
+    background-color: #F6F1F1;
+    height: 80px !important;
+    width: auto;
+}
+
+.footer i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+} */
+
+.footer li {
+    list-style: none;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 3rem 0;
+    font-weight: 300;
+}
+
+.footer ul {
+    padding-left: 10px;
+}
+
+.footer a {
+    color: azure;
+}
+
+.footer-logo img {
+    background-color: #F6F1F1;
+    height: 80px;
+    width: auto;
+}
+
+.footer i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.fa-shopping-cart {
+    color: orange;
+}
+
+.shopping-cart-icon {
+    border-radius: 5px;
+}
+
+.logo {
+    color: darkorange;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.fa-shopping-cart {
+    color: orange;
+}
+
+.shopping-cart-icon {
+    border-radius: 5px;
+}
+
+.btn-shop-now {
+    font-weight: 300;
+    font-size: larger;
+    padding: 5px 20px;
+    border-radius: 2rem;
+    margin-right: 20px;
+}
+
+
+
+

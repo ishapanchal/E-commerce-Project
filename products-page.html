@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+    <script src="https://kit.fontawesome.com/cdd1b68e29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+    <title>Responsive Navbar</title>
+    <style>
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .filter-section {
+            margin: 5rem 0;
+            display: flex;
+            gap: 2rem;
+            text-align: center;
+            justify-content: flex-end;
+        }
+
+        .all-prod-header {
+            margin-top: 1.5rem;
+        }
+        
+        .card-body {
+            background-color: black;
+            color: aliceblue;
+        }
+        
+    </style>
+    <script src="./itemController.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><span class="logo">Nexus Phones</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="form-inline my-2 my-lg-0 mx-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./homepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./add-items.html">Add Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./products-page.html">All Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link shopping-cart-icon" href="./cart-page.html">
+                        <span class="fa fa-shopping-cart"></span> Cart
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="all-prod-header">All Products</h2>
+        <div class="filter-section">
+            <div class="">
+                <button class="btn btn-primary btn-wide" id="sortBtn">Sort by Price</button>
+            </div>
+            <div class="">
+                <button class="btn btn-primary btn-wide" id="filterBtn">Filter by Category</button>
+            </div>
+        </div>
+        <div class="row" id="productGrid">
+            <!-- Products will be dynamically added here -->
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>

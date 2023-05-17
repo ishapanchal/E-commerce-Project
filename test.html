@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Item Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="./test.js" defer></script>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h2>Add Item</h2>
+        <form id="addItemForm">
+            <div class="form-group">
+                <label for="itemName">Item Name:</label>
+                <input type="text" class="form-control" id="itemName" required>
+            </div>
+            <div class="form-group">
+                <label for="itemPrice">Item Price:</label>
+                <input type="number" class="form-control" id="itemPrice" required>
+            </div>
+            <div class="form-group">
+                <label for="itemImage">Item Image:</label>
+                <input type="text" class="form-control" id="itemImage" required>
+            </div>
+            <div class="form-group">
+                <label for="itemDescription">Item Description:</label>
+                <textarea class="form-control" id="itemDescription" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
